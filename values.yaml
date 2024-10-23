@@ -51,8 +51,8 @@ service:
   enabled: true
   name: nodejs-svc
   type: ClusterIP
-  port: 3000
-  targetPort: 3000
+  port: 5000
+  targetPort: 5000
 
 # This block is for setting up the ingress for more information can be found here: https://kubernetes.io/docs/concepts/services-networking/ingress/
 ingress:

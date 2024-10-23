@@ -63,9 +63,9 @@ ingress:
     nginx.ingress.kubernetes.io/rewrite-target: /
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: sala3.cluster.local
-      paths:
-        - path: /
+    - host: "167.172.184.67"
+      paths: 
+        - path: /sala-3
           pathType: ImplementationSpecific
   tls: []
   #  - secretName: chart-example-tls
